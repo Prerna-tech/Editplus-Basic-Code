@@ -1,0 +1,36 @@
+class B 
+{
+	int i;
+	double d;
+}
+class C
+{
+	String s;
+	boolean b;
+}
+class D
+{
+	public static void main (String [] args)
+	{
+		B b1=new B();
+		b1.i =10;
+		System.out.println(b1.i);
+		B b2=new B();
+		b2.d= 45.75;
+		System.out.println(b2.d);
+		C c1=new C();
+		c1.s="hello";
+		System.out.println(c1.s);
+		C c2= new C();
+		c2.b=true;
+		System.out.println(c2.b);
+
+	}
+}
+/*
+output of this program
+10
+45.75
+hello
+true
+*/

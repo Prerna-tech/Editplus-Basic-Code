@@ -1,0 +1,31 @@
+class E 
+{
+	int i;
+	double d;
+}
+
+class F
+{
+	String s;
+	boolean b;
+}
+
+class I
+{
+	Float o;
+	char c;
+
+	public static void main(String [] args)
+	{
+		E e1=new E();
+		//e1.i = 45;
+		System.out.println(e1.i);
+		System.out.println(e1.d);
+		F f1=new F();
+		System.out.println(f1.s);
+		System.out.println(f1.b);
+		I i1=new I();
+		System.out.println(i1.o);
+		System.out.println(i1.c);
+	}
+}

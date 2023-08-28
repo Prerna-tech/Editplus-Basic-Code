@@ -1,0 +1,29 @@
+class Result
+{
+	int i;
+	static int j ;
+	void m1();
+	{
+		System.out.println(i);
+		System.out.println(j);
+	}
+}
+
+class Plan
+{
+	public static void main(String[] args) 
+	{
+		Result a1 = new Result();
+		a1.m1();
+	}
+}
+
+
+//		Result a1 = new Result();
+//		a1.m1();
+//	}
+//}
+
+// error: missing method body, or declare abstract
+//      void m1();
+             
